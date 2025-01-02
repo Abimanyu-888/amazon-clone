@@ -1,0 +1,52 @@
+.generalbar{
+    background-color: #232f3f;
+    display:flex;
+    height:40px;
+    color:white;
+
+    align-items: center;
+    font-family: "Istok Web",serif;
+}
+.generalbar-all{
+    padding:0px 9px 0px 9px;
+    font-size: 15px;
+    font-weight: 700;
+    width:37px;
+    cursor: pointer;
+}
+@media(min-width:1100px){
+    .generalbar-all{
+        margin-left:10px;
+    }
+}
+.generalbar-others{
+    display:flex;
+    font-size: 15px;
+    cursor: pointer;
+}
+.generalbar-static ,.generalbar-dynamic{
+    display:flex;
+}
+.g-s,.g-d-1,.g-d-2,.g-d-3,.g-d-4{
+    padding:0px 9px 0px 9px;
+}
+@media(max-width:1130px){
+    .g-d-1{
+        display:none;
+    }
+}
+@media(max-width:1270px){
+    .g-d-2{
+        display: none;
+    }
+}
+@media(max-width:1414px){
+    .g-d-3{
+        display: none;
+    }
+}
+@media(max-width:1548px){
+    .g-d-4{
+        display: none;
+    }
+}
