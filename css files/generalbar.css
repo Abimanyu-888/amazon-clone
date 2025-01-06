@@ -3,7 +3,6 @@
     display:flex;
     height:40px;
     color:white;
-
     align-items: center;
     font-family: "Istok Web",serif;
 }
@@ -13,6 +12,7 @@
     font-weight: 700;
     width:37px;
     cursor: pointer;
+    flex-shrink: 0;
 }
 @media(min-width:1100px){
     .generalbar-all{
@@ -23,6 +23,7 @@
     display:flex;
     font-size: 15px;
     cursor: pointer;
+    flex-shrink: 0;
 }
 .generalbar-static ,.generalbar-dynamic{
     display:flex;

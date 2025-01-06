@@ -1,9 +1,16 @@
 body{
     margin:0;
     font-family: "Istok Web",serif;
+    height:4000px;
+}
+@media(min-width:1030px){
+    body{
+        padding-top:60px;
+    }
 }
 p{
     margin:0;
-    
-    
+}
+a{
+    text-decoration: none;/*to remove the underline*/
 }

@@ -1,0 +1,125 @@
+.main-body{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height:2000px;/*for giving the background -colour*/
+    background-color: #e3e6e6;
+    min-width: 1000px;
+}
+.img-container{
+    position:relative;
+}
+.main-img{
+    min-width: 1000px;
+    width:100%;
+    max-width: 1500px;
+}
+.products-main{
+    color:#0f1111;
+    position:absolute;
+    display: grid;
+    top:250px;
+    left:20px;
+    right:20px;
+    column-gap:20px;
+    row-gap: 20px;
+}
+@media (max-width:1240px){
+    .products-main{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: 
+        "   c1       c2       c3   "
+        "   p       p       c4   "
+        "   c5       c6       c7   "
+        "   r1       r1       r1   "
+        "   c8       .       .   "
+        "   .       .       .   "
+        "   .       .       .   "
+        ;
+    }
+}
+@media (min-width:1241px){
+    .products-main{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-areas: 
+        "   c1       c2       c3       c4   "
+        "   p       p       c5       c6   "
+        "   r1       r1       r1       r1   "
+        "   c7       c8       .       .   "
+        "   .       .       .       .   "
+        "   .       .       .       .   "
+        "   .       .       .       .   "
+        ;
+    }
+}
+.con-1{
+    grid-area:c1;
+}
+.con-2{
+    grid-area:c2;
+}
+.con-3{
+    grid-area:c3;
+}
+.con-4{
+    grid-area:c4;
+}
+.con-5{
+    grid-area:c5;
+}
+.con-6{
+    grid-area:c6;
+}
+.con-7{
+    grid-area:c7;
+}
+.con-8{
+    grid-area:c8;
+}
+.productscontainer{
+    height:420px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    box-sizing: border-box;
+    background-color: white;
+    padding:20px;
+    height:100%;
+}
+.con-heading{
+    font-size:21px;
+    font-weight: 800;
+}
+.con-img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+.image-con-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    flex:1;
+}
+.con-end{
+    color:#2161a1;
+    padding-top:25px;
+}
+.products-details{
+    font-size:13px;
+}
+.prime-video{
+    height:420px;
+    background-color: lightblue;
+    height:420px;
+    grid-area: p;
+}
+.prime-video-img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.products-row{
+    background-color: pink;
+    height:281.5px;
+    grid-area: r1;
+}

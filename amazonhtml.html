@@ -8,16 +8,17 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
         <link href="css files/generalbar.css" rel="stylesheet">
+        <link href="css files/main-body.css" rel="stylesheet">
         <title>
             Amazon
         </title>
         <link href="photos/amazon icon for head.ico" rel="icon">
     </head>
     <body>
-        <div class="navigationbar">
+        <header class="navigationbar">
             <div class="nav-logo">
                 <a href="https://www.amazon.in" target="_self">
-                    <img src="photos/amazon_logo.png" class="nav-logo-img">
+                    <img src="photos/body/header/amazon_logo.png" class="nav-logo-img">
                 </a>
                 <a href="https://www.amazon.in" target="_self">
                     <p class="nav-in">
@@ -48,7 +49,7 @@
                 </button>
             </div>
             <div class="nav-language">
-                <img src="photos/india flag.png" class="nav-flag">
+                <img src="photos/body/header/india flag.png" class="nav-flag">
                 <p style="padding:2px 3px 0px 3px;">
                     EN
                 </p>
@@ -75,8 +76,8 @@
             <div class="nav-cart">
                 <i class="fa-sharp-duotone fa-solid fa-cart-shopping"></i>
             </div>
-        </div>
-        <div class="generalbar">
+        </header>
+        <nav class="generalbar">
             <div class="generalbar-all">
                 <i class="fa-solid fa-bars"></i> All
             </div>
@@ -132,6 +133,75 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </nav>
+        <main>
+            <section class="main-body">
+                <div class="img-container"><!--since position of product main is relative to img-->
+                    <img src="photos/body/main-img1.jpg" class="main-img">
+                    <div class="products-main">
+                        <div class="productscontainer con-1"><!--con1==container1-->
+                            <div class="con-heading">
+                                Deals related to your views
+                            </div>
+                            <div class="image-con-1">
+                                <img src="photos/body/container-1/img-1.jpg" class="con-img">
+                                <img src="photos/body/container-1/img-2.jpg" class="con-img">
+                                <img src="photos/body/container-1/img-3.jpg" class="con-img">
+                                <img src="photos/body/container-1/img-4.jpg" class="con-img">
+                            </div>
+                            <div class="con-end">
+                                see all deals
+                            </div>
+                        </div>
+                        <div class="productscontainer con-2">
+                            <div class="con-heading">
+                                Deals related to your views
+                            </div>
+                            <div class="image-con-1">
+                                <img src="photos/body/container-2/img-1.jpg" class="con-img">
+                                <img src="photos/body/container-2/img-2.jpg" class="con-img">
+                                <span class="products-details">Belkin USB-C Ether...</span>
+                                <span class="products-details">Belkin USB-C Ether...</span>
+                                <img src="photos/body/container-2/img-3.jpg" class="con-img">
+                                <img src="photos/body/container-2/img-4.jpg" class="con-img">
+                                <span class="products-details">Belkin USB-C Ether...</span>
+                                <span class="products-details">Belkin USB-C Ether...</span>
+                            </div>
+                            <div class="con-end">
+                                see more
+                            </div>
+                        </div>
+                        <div class="productscontainer con-3">
+                            products 3
+                        </div>
+                        <div class="productscontainer con-4">
+                            products 4
+                        </div>
+                        <div class="prime-video">
+                            <img src="photos/body/primevideo.jpg" class="prime-video-img">
+                        </div>
+                        <div class="productscontainer con-5">
+                            products 5
+                        </div>
+                        <div class="productscontainer con-6">
+                            products 6
+                        </div>
+                        <div class="products-row">
+                            product
+                        </div>
+                        <div class="productscontainer con-7">
+                            products 7
+                        </div>
+                        <div class="productscontainer con-8">
+                            products 8
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="amazon-info">
+
+            </section>
+        </main>
     </body>
 </html>
